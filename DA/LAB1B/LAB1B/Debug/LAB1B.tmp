@@ -1,0 +1,32 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.7</VERSION>
+ <DEVICE>"ATmega328P"</DEVICE>
+ <WORKING_DIR>C:\Users\gausp\Documents\Repository\ESD301\DA\LAB1B\LAB1B\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\gausp\Documents\Repository\ESD301\DA\LAB1B\LAB1B\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\m328pdef.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\gausp\Documents\Repository\ESD301\DA\LAB1B\LAB1B\Debug\LAB1B.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>LAB1B.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>LAB1B.map</FILE>
+  <FILE>LAB1B.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <L1><FILE>C:\Users\gausp\Documents\Repository\ESD301\DA\LAB1B\LAB1B\main.asm</FILE><LINE>36</LINE></L1>
+  <DIVLOOP1><FILE>C:\Users\gausp\Documents\Repository\ESD301\DA\LAB1B\LAB1B\main.asm</FILE><LINE>40</LINE></DIVLOOP1>
+  <DIVCHECK><FILE>C:\Users\gausp\Documents\Repository\ESD301\DA\LAB1B\LAB1B\main.asm</FILE><LINE>46</LINE></DIVCHECK>
+  <NOTDIV3><FILE>C:\Users\gausp\Documents\Repository\ESD301\DA\LAB1B\LAB1B\main.asm</FILE><LINE>53</LINE></NOTDIV3>
+  <NEXT><FILE>C:\Users\gausp\Documents\Repository\ESD301\DA\LAB1B\LAB1B\main.asm</FILE><LINE>57</LINE></NEXT>
+  <END><FILE>C:\Users\gausp\Documents\Repository\ESD301\DA\LAB1B\LAB1B\main.asm</FILE><LINE>62</LINE></END>
+ </LABELS>
+</ASSEMBLER_INFO>
