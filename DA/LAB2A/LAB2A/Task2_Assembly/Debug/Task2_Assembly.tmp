@@ -1,0 +1,32 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.7</VERSION>
+ <DEVICE>"ATmega328PB"</DEVICE>
+ <WORKING_DIR>C:\Users\gausp\Documents\Repository\ESD301\DA\LAB2A\LAB2A\Task2_Assembly\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\gausp\Documents\Repository\ESD301\DA\LAB2A\LAB2A\Task2_Assembly\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\m328PBdef.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\gausp\Documents\Repository\ESD301\DA\LAB2A\LAB2A\Task2_Assembly\Debug\Task2_Assembly.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>Task2_Assembly.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>Task2_Assembly.map</FILE>
+  <FILE>Task2_Assembly.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <L1><FILE>C:\Users\gausp\Documents\Repository\ESD301\DA\LAB2A\LAB2A\Task2_Assembly\main.asm</FILE><LINE>22</LINE></L1>
+  <LEDoff><FILE>C:\Users\gausp\Documents\Repository\ESD301\DA\LAB2A\LAB2A\Task2_Assembly\main.asm</FILE><LINE>29</LINE></LEDoff>
+  <delay1250ms><FILE>C:\Users\gausp\Documents\Repository\ESD301\DA\LAB2A\LAB2A\Task2_Assembly\main.asm</FILE><LINE>33</LINE></delay1250ms>
+  <delayL0_A><FILE>C:\Users\gausp\Documents\Repository\ESD301\DA\LAB2A\LAB2A\Task2_Assembly\main.asm</FILE><LINE>37</LINE></delayL0_A>
+  <delayL1_A><FILE>C:\Users\gausp\Documents\Repository\ESD301\DA\LAB2A\LAB2A\Task2_Assembly\main.asm</FILE><LINE>38</LINE></delayL1_A>
+  <delayL2_A><FILE>C:\Users\gausp\Documents\Repository\ESD301\DA\LAB2A\LAB2A\Task2_Assembly\main.asm</FILE><LINE>39</LINE></delayL2_A>
+ </LABELS>
+</ASSEMBLER_INFO>
