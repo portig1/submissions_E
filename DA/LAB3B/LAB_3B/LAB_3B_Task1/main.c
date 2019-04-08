@@ -13,13 +13,14 @@
 
 #define F_CPU 16000000UL
 #define BAUD_RATE 9600
+#define BAUD_PRESCALLER (((F_CPU / (BAUD_RATE * 16UL))) - 1)
 
 #include <avr/io.h>		
 #include <avr/interrupt.h>
 #include <stdio.h>
 
 void usart_init ();
-void USART_send( unsigned char data);
+void USART_send(unsigned char data);
 void USART_putstring(char* StringPtr);
 
 
@@ -69,13 +70,15 @@ ISR(TIMER1_COMPA_vect)
 	
 	snprintf(output, sizeof(output), "%d\r\n", tempC);
 	USART_putstring(output);
+
 }
 
 void usart_init (void)
 {
-	UCSR0B = (1<<TXEN0);
-	UCSR0C = (1<< UCSZ01)|(1<<UCSZ00);
-	UBRR0L = F_CPU/16/BAUD_RATE-1;
+	UBRR0H = (uint8_t)(BAUD_PRESCALLER >> 8);
+	UBRR0L = (uint8_t)(BAUD_PRESCALLER);
+	UCSR0B = (1 << RXEN0) | (1 << TXEN0);
+	UCSR0C = (3 << UCSZ00);
 }
 
 
