@@ -2,8 +2,8 @@
 <!DOCTYPE log SYSTEM "logger.dtd">
 <log>
 <record>
-  <date>2019-04-09T19:04:17</date>
-  <millis>1554861857693</millis>
+  <date>2019-05-10T15:47:52</date>
+  <millis>1557528472888</millis>
   <sequence>6</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
@@ -13,8 +13,8 @@
   <message>Load saved settings: Firmware:NodeMCU</message>
 </record>
 <record>
-  <date>2019-04-09T19:04:17</date>
-  <millis>1554861857701</millis>
+  <date>2019-05-10T15:47:52</date>
+  <millis>1557528472940</millis>
   <sequence>7</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
@@ -24,8 +24,8 @@
   <message>Snippets: loading...</message>
 </record>
 <record>
-  <date>2019-04-09T19:04:17</date>
-  <millis>1554861857715</millis>
+  <date>2019-05-10T15:47:52</date>
+  <millis>1557528472957</millis>
   <sequence>8</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
@@ -35,8 +35,8 @@
   <message>Snippets load: Success.</message>
 </record>
 <record>
-  <date>2019-04-09T19:04:17</date>
-  <millis>1554861857783</millis>
+  <date>2019-05-10T15:47:53</date>
+  <millis>1557528473194</millis>
   <sequence>9</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
@@ -46,8 +46,8 @@
   <message>Set new color theme: Success.</message>
 </record>
 <record>
-  <date>2019-04-09T19:04:17</date>
-  <millis>1554861857790</millis>
+  <date>2019-05-10T15:47:53</date>
+  <millis>1557528473221</millis>
   <sequence>10</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
@@ -57,8 +57,8 @@
   <message>Load saved settings: DONE.</message>
 </record>
 <record>
-  <date>2019-04-09T19:04:17</date>
-  <millis>1554861857793</millis>
+  <date>2019-05-10T15:47:53</date>
+  <millis>1557528473255</millis>
   <sequence>11</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
@@ -68,8 +68,8 @@
   <message>Snippets: loading...</message>
 </record>
 <record>
-  <date>2019-04-09T19:04:17</date>
-  <millis>1554861857799</millis>
+  <date>2019-05-10T15:47:53</date>
+  <millis>1557528473267</millis>
   <sequence>12</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
@@ -79,8 +79,8 @@
   <message>Snippets load: Success.</message>
 </record>
 <record>
-  <date>2019-04-09T19:04:18</date>
-  <millis>1554861858186</millis>
+  <date>2019-05-10T15:47:54</date>
+  <millis>1557528474484</millis>
   <sequence>13</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
@@ -90,20 +90,31 @@
   <message>Scan system...</message>
 </record>
 <record>
-  <date>2019-04-09T19:04:18</date>
-  <millis>1554861858366</millis>
+  <date>2019-05-10T15:47:54</date>
+  <millis>1557528474577</millis>
   <sequence>14</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
   <class>ESPlorer.ESPlorer</class>
   <method>log</method>
   <thread>13</thread>
-  <message>Could not find any serial port. Please, connect device and ReScan</message>
+  <message>found COM3</message>
 </record>
 <record>
-  <date>2019-04-09T19:04:18</date>
-  <millis>1554861858370</millis>
+  <date>2019-05-10T15:47:54</date>
+  <millis>1557528474580</millis>
   <sequence>15</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>found COM6</message>
+</record>
+<record>
+  <date>2019-05-10T15:47:54</date>
+  <millis>1557528474583</millis>
+  <sequence>16</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
   <class>ESPlorer.ESPlorer</class>
@@ -112,9 +123,466 @@
   <message>Scan done.</message>
 </record>
 <record>
-  <date>2019-04-09T20:20:39</date>
-  <millis>1554866439651</millis>
-  <sequence>16</sequence>
+  <date>2019-05-10T15:48:01</date>
+  <millis>1557528481383</millis>
+  <sequence>17</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>Serial port COM3 save as default.</message>
+</record>
+<record>
+  <date>2019-05-10T15:48:01</date>
+  <millis>1557528481385</millis>
+  <sequence>18</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>Baud rate 115200 save as default.</message>
+</record>
+<record>
+  <date>2019-05-10T15:48:01</date>
+  <millis>1557528481385</millis>
+  <sequence>19</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>Try to open port COM3, baud 115200, 8N1</message>
+</record>
+<record>
+  <date>2019-05-10T15:48:01</date>
+  <millis>1557528481394</millis>
+  <sequence>20</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port busy.</message>
+</record>
+<record>
+  <date>2019-05-10T15:48:06</date>
+  <millis>1557528486903</millis>
+  <sequence>21</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>Scan system...</message>
+</record>
+<record>
+  <date>2019-05-10T15:48:06</date>
+  <millis>1557528486907</millis>
+  <sequence>22</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>found last saved serial port COM3</message>
+</record>
+<record>
+  <date>2019-05-10T15:48:06</date>
+  <millis>1557528486908</millis>
+  <sequence>23</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>found COM6</message>
+</record>
+<record>
+  <date>2019-05-10T15:48:06</date>
+  <millis>1557528486909</millis>
+  <sequence>24</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>Scan done.</message>
+</record>
+<record>
+  <date>2019-05-10T15:48:09</date>
+  <millis>1557528489513</millis>
+  <sequence>25</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>Serial port COM6 save as default.</message>
+</record>
+<record>
+  <date>2019-05-10T15:48:09</date>
+  <millis>1557528489514</millis>
+  <sequence>26</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>Baud rate 115200 save as default.</message>
+</record>
+<record>
+  <date>2019-05-10T15:48:09</date>
+  <millis>1557528489515</millis>
+  <sequence>27</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>Try to open port COM6, baud 115200, 8N1</message>
+</record>
+<record>
+  <date>2019-05-10T15:48:09</date>
+  <millis>1557528489545</millis>
+  <sequence>28</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>Open port COM6 - Success.</message>
+</record>
+<record>
+  <date>2019-05-10T15:48:11</date>
+  <millis>1557528491528</millis>
+  <sequence>29</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>sending:AT&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2019-05-10T15:48:12</date>
+  <millis>1557528492309</millis>
+  <sequence>30</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>sending:AT&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2019-05-10T15:48:14</date>
+  <millis>1557528494029</millis>
+  <sequence>31</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>sending:AT+CWJAP?&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2019-05-10T15:49:28</date>
+  <millis>1557528568524</millis>
+  <sequence>32</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>sending:AT+CIPSTART=?&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2019-05-10T15:49:35</date>
+  <millis>1557528575805</millis>
+  <sequence>33</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>sending:AT&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2019-05-10T15:49:41</date>
+  <millis>1557528581940</millis>
+  <sequence>34</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>sending:AT+CIPSEND=103&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2019-05-10T15:49:41</date>
+  <millis>1557528581942</millis>
+  <sequence>35</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>sending:GET https://api.thingspeak.com/update?api_key=P7JD9OICCNIR59PL&amp;field1=0&amp;field2=0&amp;field3=0&amp;field4=0\r\n
+&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2019-05-10T15:49:55</date>
+  <millis>1557528595562</millis>
+  <sequence>36</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>sending:AT+CIPSEND=99&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2019-05-10T15:49:55</date>
+  <millis>1557528595563</millis>
+  <sequence>37</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>sending:GET https://api.thingspeak.com/update?api_key=P7JD9OICCNIR59PL&amp;field1=0&amp;field2=0&amp;field3=0&amp;field4=0
+&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2019-05-10T15:50:20</date>
+  <millis>1557528620389</millis>
+  <sequence>38</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>sending:AT+CIPSEND=72&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2019-05-10T15:50:20</date>
+  <millis>1557528620390</millis>
+  <sequence>39</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>sending:GET https://api.thingspeak.com/update?api_key=P7JD9OICCNIR59PL&amp;field1=0
+&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2019-05-10T15:50:43</date>
+  <millis>1557528643767</millis>
+  <sequence>40</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>sending:AT+CIPMUX=0&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2019-05-10T15:50:43</date>
+  <millis>1557528643769</millis>
+  <sequence>41</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>sending:AT+CIPSTART="TCP","api.thingspeak.com",80&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2019-05-10T15:50:46</date>
+  <millis>1557528646053</millis>
+  <sequence>42</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>sending:AT+CIPSEND=72&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2019-05-10T15:50:46</date>
+  <millis>1557528646054</millis>
+  <sequence>43</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>sending:GET https://api.thingspeak.com/update?api_key=P7JD9OICCNIR59PL&amp;field1=0
+&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2019-05-10T15:51:14</date>
+  <millis>1557528674004</millis>
+  <sequence>44</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>sending:AT+CIPMUX=0&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2019-05-10T15:51:14</date>
+  <millis>1557528674006</millis>
+  <sequence>45</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>sending:AT+CIPSTART="TCP","api.thingspeak.com",80&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2019-05-10T15:51:15</date>
+  <millis>1557528675129</millis>
+  <sequence>46</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>sending:AT+CIPCLOSE&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2019-05-10T15:51:16</date>
+  <millis>1557528676113</millis>
+  <sequence>47</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>sending:AT+CIPSEND=99&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2019-05-10T15:51:16</date>
+  <millis>1557528676116</millis>
+  <sequence>48</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>sending:GET https://api.thingspeak.com/update?api_key=P7JD9OICCNIR59PL&amp;field1=0&amp;field2=0&amp;field3=0&amp;field4=0
+&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2019-05-10T15:51:18</date>
+  <millis>1557528678127</millis>
+  <sequence>49</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>sending:AT+CIPCLOSE&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2019-05-10T15:51:19</date>
+  <millis>1557528679550</millis>
+  <sequence>50</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>sending:AT+CIPMUX=0&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2019-05-10T15:51:19</date>
+  <millis>1557528679552</millis>
+  <sequence>51</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>sending:AT+CIPSTART="TCP","api.thingspeak.com",80&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2019-05-10T15:51:24</date>
+  <millis>1557528684065</millis>
+  <sequence>52</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>sending:AT+CIPMUX=0&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2019-05-10T15:51:24</date>
+  <millis>1557528684066</millis>
+  <sequence>53</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>sending:AT+CIPSTART="TCP","api.thingspeak.com",80&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2019-05-10T15:51:25</date>
+  <millis>1557528685560</millis>
+  <sequence>54</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>sending:AT+CIPSEND=99&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2019-05-10T15:51:25</date>
+  <millis>1557528685561</millis>
+  <sequence>55</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>sending:GET https://api.thingspeak.com/update?api_key=P7JD9OICCNIR59PL&amp;field1=0&amp;field2=0&amp;field3=0&amp;field4=0
+&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2019-05-10T15:51:30</date>
+  <millis>1557528690401</millis>
+  <sequence>56</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>sending:AT+CIPCLOSE&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2019-05-10T15:53:21</date>
+  <millis>1557528801461</millis>
+  <sequence>57</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>Close port COM6 - Success.</message>
+</record>
+<record>
+  <date>2019-05-10T16:01:33</date>
+  <millis>1557529293850</millis>
+  <sequence>58</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
   <class>ESPlorer.ESPlorer</class>
@@ -123,9 +591,9 @@
   <message>FileTab cleared: Success.</message>
 </record>
 <record>
-  <date>2019-04-09T20:20:39</date>
-  <millis>1554866439657</millis>
-  <sequence>17</sequence>
+  <date>2019-05-10T16:01:33</date>
+  <millis>1557529293856</millis>
+  <sequence>59</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
   <class>ESPlorer.ESPlorer</class>
